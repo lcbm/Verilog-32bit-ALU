@@ -1,0 +1,78 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, the Altera Quartus II License Agreement,
+# the Altera MegaCore Function License Agreement, or other 
+# applicable license agreement, including, without limitation, 
+# that your use is for the sole purpose of programming logic 
+# devices manufactured by Altera and sold by Altera or its 
+# authorized distributors.  Please refer to the applicable 
+# agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 15.0.0 Build 145 04/22/2015 SJ Web Edition
+# Date created = 18:13:33  June 26, 2019
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Main_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY Main
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "18:13:33  JUNE 26, 2019"
+set_global_assignment -name LAST_QUARTUS_VERSION 15.0.0
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform2.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform3.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform4.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform5.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform6.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform7.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform8.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform9.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform10.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform11.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE WaveformSLL.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRL.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SRA.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE SLT.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/ADD.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SUB_ALUOp_01.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/AND.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/OR.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SUB.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SLL.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SRL.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SRA.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SLT.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/ADDI_Overflow.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/ADD_Overflow.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/SUB_Overflow.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/ANDI.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE waveforms/ADDI.vwf
